@@ -47,6 +47,14 @@ const sum = (x,y) => {
  */
 
 // ...
+const sumOfArray = (arr) => {
+  const sum = arr.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue
+  }, 0)
+  return sum
+}
+
+
 
 /**
  * Write a function isVowel() that takes a character (i.e. a string of length 1)
@@ -54,6 +62,7 @@ const sum = (x,y) => {
  */
 
 // ...
+const isVowel = ()
 
 
 /**
