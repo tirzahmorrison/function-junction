@@ -34,14 +34,14 @@
 
 // ...
 
- /**
-  * Write a function rovarspraket() that will translate
-  * a text into a "rövarspråket". That is, double every
-  * consonant and place an occurrence of "o" in between.
-  *
-  * For example, rovarspraket("this is fun") should
-  * return the string "tothohisos isos fofunon".
-  */
+/**
+ * Write a function rovarspraket() that will translate
+ * a text into a "rövarspråket". That is, double every
+ * consonant and place an occurrence of "o" in between.
+ *
+ * For example, rovarspraket("this is fun") should
+ * return the string "tothohisos isos fofunon".
+ */
 
 // ...
 
@@ -54,19 +54,22 @@
 
 // ...
 
-const max =(x,y) => { //define a function named max to be tested, it tkaes 2 parameters
-  if(isNaN (x) && isNaN (y))
-  return NaN
-  
+const max = (x, y) => { 
+  if (isNaN(x) && isNaN(y)) { return NaN }
+  if (isNan(x)) { return y }
+  if (isNaN(y)) { return x }
+  if (x > y) { return x }
+  return b 
 }
 
+  
 
- /**
-  * Write a function findLongestWord() that takes an
-  * string returns the first, longest word in the array.
-  *
-  * i.e. findLongestWord("book dogs") should return "book"
-  */
+/**
+ * Write a function findLongestWord() that takes an
+ * string returns the first, longest word in the array.
+ *
+ * i.e. findLongestWord("book dogs") should return "book"
+ */
 
 // ...
 
