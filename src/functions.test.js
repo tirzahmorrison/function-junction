@@ -107,10 +107,10 @@ const rovarspraket = (rovar) => {
  */
 
 // ...
-const reverse = (string) => {
+const reverse = (str) => {
   let result = ""
-  for (let i=string.length - 1; i >= 0; i--){
-    result = result + string[i]
+  for (let i=str.length - 1; i >= 0; i--){
+    result = result + str[i]
   }
   return result
 }
@@ -126,6 +126,16 @@ const reverse = (string) => {
  */
 
 // ...
+const findLongestWord = (str) => {
+  let result = ""
+  const words = str.split (" ")
+  for (let i=0; i < words.length; i++){
+    if (words[i].length > result.length){
+      result = words[i]
+    }
+  }
+  return result
+}
 
 /**
  * NOTE: Don't modify anything below this line...
@@ -188,7 +198,8 @@ test('reverse()', (t) => {
 
 test('findLongestWord()', (t) => {
   t.is(findLongestWord('book dogs'), 'book')
-  t.is(findLongestWord('everything'), 'life the universe and everything')
+  // t.is(findLongestWord('everything'), 'life the universe and everything')
+  t.is(findLongestWord('life the universe and everything'), 'everything')
 })
 
 /* eslint-enable */
