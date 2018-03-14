@@ -5,6 +5,17 @@
  */
 
 // ...
+const max = (x, y) => { 
+  if (isNaN(x) && isNaN(y)) { 
+    return NaN 
+  }
+  if (isNan(x)) { return y }
+  if (isNaN(y)) { return x }
+  if (x > y) { 
+    return x 
+  }
+  return y 
+}
 
 /**
  * Define a function maxOfThree() that takes three
@@ -54,17 +65,7 @@
 
 // ...
 
-const max = (x, y) => { 
-  if (isNaN(x) && isNaN(y)) { 
-    return NaN 
-  }
-  if (isNan(x)) { return y }
-  if (isNaN(y)) { return x }
-  if (x > y) { 
-    return x 
-  }
-  return y 
-}
+
 
   
 
