@@ -24,8 +24,8 @@ const max = (x, y) => {
 
 // ...
 const maxOfThree = (x, y, z) => {
-  const maxOfXY = max (x, y)
-  return max(maxOfXY, z)
+  const maxOfxy = max (x, y)
+  return max (maxOfxy, z)
 }
 
     
