@@ -23,7 +23,10 @@ const max = (x, y) => {
  */
 
 // ...
-
+const maxOfThree = (x, y, z) => {
+  const maxOfXY = max (x, y)
+  return max(maxOfXY, z)
+}
 
     
   
@@ -48,15 +51,7 @@ const max = (x, y) => {
  */
 
 // ...
-var isVowel = function (letter) {
-  var vowels = ["a", "e", "i", "o", "u"];
-  for (var i = 0; i < vowels.length; i++) {
-    if (letter === vowels[i]) {
-      return true;
-    }
-  }
-  return false;
- };
+
 
 /**
  * Write a function rovarspraket() that will translate
