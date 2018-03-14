@@ -69,7 +69,7 @@ const isVowel = (letter) => {
       return true;
     }
     return false;
-  };
+  }
 
   /**
    * Write a function rovarspraket() that will translate
