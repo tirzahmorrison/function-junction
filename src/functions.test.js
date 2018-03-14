@@ -24,6 +24,10 @@ const max = (x, y) => {
 
 // ...
 
+
+    
+  
+
 /*
  * Define a function sum() that takes two numbers as
  * arguments and computes the sum of those two numbers.
@@ -44,6 +48,15 @@ const max = (x, y) => {
  */
 
 // ...
+var isVowel = function (letter) {
+  var vowels = ["a", "e", "i", "o", "u"];
+  for (var i = 0; i < vowels.length; i++) {
+    if (letter === vowels[i]) {
+      return true;
+    }
+  }
+  return false;
+ };
 
 /**
  * Write a function rovarspraket() that will translate
