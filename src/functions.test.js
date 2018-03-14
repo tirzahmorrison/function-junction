@@ -62,7 +62,7 @@ const sumOfArray = (arr) => {
  */
 
 // ...
-const isVowel = (letter) =>  {
+const isVowel = (letter) => {
   const vowels = ["a", "e", "i", "o", "u"]
   for (let i = 0; i < vowels.length; i++) {
     if (letter === vowels[i]) {
