@@ -37,6 +37,9 @@ const maxOfThree = (x, y, z) => {
  */
 
 // ...
+const sum = (x,y) => {
+  return x + y;
+}
 
 /*
  * Define a function sumOfArray that calculates the sum of
