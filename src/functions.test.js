@@ -54,6 +54,11 @@
 
 // ...
 
+const max =(x,y) => { //define a function named max to be tested, it tkaes 2 parameters
+  
+}
+
+
  /**
   * Write a function findLongestWord() that takes an
   * string returns the first, longest word in the array.
