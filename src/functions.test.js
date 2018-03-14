@@ -9,7 +9,7 @@ const max = (x, y) => {
   if (isNaN(x) && isNaN(y)) { 
     return NaN 
   }
-  if (isNan(x)) { return y }
+  if (isNaN(x)) { return y }
   if (isNaN(y)) { return x }
   if (x > y) { 
     return x 
