@@ -55,6 +55,8 @@
 // ...
 
 const max =(x,y) => { //define a function named max to be tested, it tkaes 2 parameters
+  if(isNaN (x) && isNaN (y))
+  return NaN
   
 }
 
